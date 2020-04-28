@@ -6,21 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg></script>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Karla's Day Planner</title>
+    <title>Karla's Workday Scheduler</title>
 
 </head>
 
 <body>
     <header>
         <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Workday Scheduler</h1>
-                <p class="lead">A simple calendar app for scheduling your work day.</p>
-                <div id="date">Today's date</div>
-            </div>
+            <h1 class="display-4">Workday Scheduler</h1>
+            <p class="lead">A simple calendar app for scheduling your work day.</p>
+            <div id="date" class="time-block">Today's date</div>
         </div>
     </header>
+
+    <div class="container">
+
+        <div id="cal-row1" class="row justify-content-med-center border-top border-bottom cal-row">
+            <div id="time1" class="hour col-md-1">9 AM</div>
+            <text-area rows="3" id="text-entry1" class="col-md-10"></text-area>
+            <button id="saveBtn" class="col-med-1"><i class="far fa-save"></i></button>
+        </div>
+
+    </div>
+
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
