@@ -1,4 +1,4 @@
-# password-generator
+# day-planner
 
 ![Algorithm schema](./assets/images/)
 
