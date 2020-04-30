@@ -1,6 +1,6 @@
 # day-planner
 
-![video](.<iframe src="null" width="640" height="480"></iframe>)
+![Algorithm schema](./assets/images/KarlasWorkdayScheduler.gif)
 
 ## Table of contents
 * [General info](#general-info)
