@@ -1,6 +1,6 @@
 # day-planner
 
-![Algorithm schema](./assets/images/)
+![video](.<iframe src="null" width="640" height="480"></iframe>)
 
 ## Table of contents
 * [General info](#general-info)
